@@ -1,0 +1,25 @@
+{
+    "name":"Tab Time Tracker",
+    "version":"1.0",
+    "description":"It will track how much time you have spend on every tabs " ,
+    "permissions":["activeTab","declarativeContent","storage","tabs"],
+    "background":{
+        "scripts":["background.js"],
+        "persistent":false
+    },
+    "page_action":{
+        "default_popup":"popup.html",
+        "default_icon":{
+            "48":"images/get_started48.png",
+            "96": "images/get_started96.png"
+           
+        }
+    },
+    "options_page":"options.html",
+    "icons":{
+        "48": "images/get_started48.png",
+        "96": "images/get_started96.png"
+       
+    },
+    "manifest_version":2
+}

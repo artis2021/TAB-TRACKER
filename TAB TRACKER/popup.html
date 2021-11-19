@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time tracker</title>
+    <style>
+        button{
+            height: 40px;
+            width: 100px;
+            outline: none;
+        }
+        #timeTable{
+            width: 560px;
+            border: 1px solid black;
+        }
+        tr:nth-child(even){background-color: blanchedalmond;}
+    </style>
+</head>
+<body>
+    <div id="timeTableDiv">
+        <table id="timeTable"></table>
+    </div>
+    <div id="errorMessage"></div>
+    <button id="btnShowTable">Load Time </button>
+    <button id="btnClearTimes">Clear Times </button>
+    <button id="btnExportPdf">Export PDF </button>
+  Display all URLs:<input type="checkbox" id="allUrlsCheckbox">
+    <script src="./lib/pdf.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
