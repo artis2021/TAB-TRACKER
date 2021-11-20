@@ -1,2 +1,3 @@
 # TAB-TRACKER
-This is a chrome extension will which record your time-spend on every running tab .
+Tab Tracker
+This chrome extension will record your time spend on every opened tab.
